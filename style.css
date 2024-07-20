@@ -1,0 +1,90 @@
+img{
+    width: 800px;
+    height: 500px;
+}
+textarea {
+    resize: both; 
+    overflow: auto; 
+}
+table,td,th{
+   
+    border: 1px solid black;
+    padding: 5px;
+}
+body {
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 5px;
+}
+nav {
+    background: white;   
+    text-align: center;
+}
+section, .attraction, form, address,table {
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+table{
+    width: 30%;
+}
+form label {
+    margin: 10px 0 5px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}   
+   form {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+form input, form select {
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+  
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+
+form input[type="submit"]:hover {
+    background: #555;
+}
